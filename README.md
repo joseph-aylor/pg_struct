@@ -110,4 +110,4 @@ The output is a JSON object with the following structure:
 
 ## License
 
-ISC
+GPL v3
