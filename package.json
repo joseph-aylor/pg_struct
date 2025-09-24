@@ -1,0 +1,21 @@
+{
+  "name": "pg_structure_dump",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "pg-structure-dump": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "build": "ncc build src/index.js -o build && mv build/index.js build/pg_struct"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "CLI tool for dumping PostgreSQL database structure as JSON",
+  "dependencies": {
+    "commander": "^14.0.1",
+    "pg": "^8.16.3"
+  }
+}
